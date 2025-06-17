@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Exam Scheduling System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Live Exam Scheduling and Room Allocation System</h1>
+        <div class="login-options">
+            <div class="login-option" id="student-login">
+                <h2>Tier 1 [Student]</h2>
+                <div class="login-form" id="student-form">
+                    <input type="text" id="student-roll" placeholder="Roll Number">
+                    <button onclick="studentLogin()">Login</button>
+                </div>
+            </div>
+            <div class="login-option" id="teacher-login">
+                <h2>Tier 2 [Teacher]</h2>
+                <div class="login-form" id="teacher-form">
+                    <input type="text" id="teacher-username" placeholder="Username">
+                    <input type="password" id="teacher-password" placeholder="Password">
+                    <button onclick="teacherLogin()">Login</button>
+                    <p id="teacher-login-message"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
