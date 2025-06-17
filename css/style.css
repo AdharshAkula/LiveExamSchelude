@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.login-container, .dashboard {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-options {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.login-form input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard-options {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.dashboard-option {
+    padding: 1rem;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.calendar-day, .seat {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+.room-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
